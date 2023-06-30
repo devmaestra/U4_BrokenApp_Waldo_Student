@@ -9,7 +9,7 @@ let buttonArray = []; // Targets an image within our assets folder.
 
 // Creates an array with values 1 - 20.
 while(count < 21) {
-    buttonArray.push(count+);
+    buttonArray.push (count + 1) ;
 }
 
 // builds buttons based on number of images within assets. 
@@ -18,8 +18,8 @@ buttonArray.forEach((x,i) => {
     const btn = documents.createElement('button');
     
     // assign values
-    btns.className = 'pad';
-    btn.id : `pad-${i+1}`;
+    btn.className = 'pad';
+    btn.id = `pad-${i+1}`;
     btn.innerTexts = x;
     btn.onclick = () => {
         const num = randomizeNumber();
