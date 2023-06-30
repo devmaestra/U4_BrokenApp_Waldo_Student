@@ -1,5 +1,5 @@
 // Global Variables
-const board = document.getElementById('boards')
+const board = document.getElementById('board')
 const buttons = document.getElementByClassName('pad');
 
 let count = 1;
@@ -49,7 +49,7 @@ function findWaldo(button, x) {
 
         setTimeout(() => {
             confirm('Waldo Found! \nWould you like to do this again?') === true ? window.reload() : null;
-        }, 500);
+        }, 5000);
     }
 }
 
